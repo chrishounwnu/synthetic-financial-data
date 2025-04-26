@@ -84,12 +84,17 @@ _________Simulated VAE was highly volatile and unreliable.
 These results confirm that deep generative models like TimeGAN can produce ethically usable and statistically valid financial datasets.
 
 #### 👨‍🏫 Supervisor
+
 This project was conducted under the supervision of:
 
 Supervisor Name: Prof. Dr. Ulrich GABA
+
 Affiliation: AIMS Rwanda
+
 Email: (ask me dm)
 
 📜 License
+
 This project is developed for academic purposes.
+
 Reuse, distribution, and modification should credit me and  my supervisor.
