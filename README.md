@@ -16,12 +16,19 @@ The project demonstrates that deep generative models, especially TimeGAN, can su
 
 project_root/ │ 
 ├── data/ │ ├── raw/ # Raw real-world data (e.g., S&P500 historical prices) │ ├── processed/ # Intermediate synthetic data (saved .npy files) │ └── synthetic/ # Final synthetic datasets (.csv files) ready for use │ 
+
 ├── models/ # Trained and saved models (ARIMA, GARCH, TimeGAN, VAE) │ 
+
 ├── notebooks/ # Jupyter notebooks documenting each stage │ ├── 01_data_exploration.ipynb │ ├── 02_arima_garch_modeling.ipynb │ ├── 03_timegan_training.ipynb │ ├── 04_vae_training.ipynb │ ├── 05_evaluation.ipynb │ └── 06_use_cases.ipynb │ 
+
 ├── utils/ # Python utility scripts │ ├── data_loader.py │ ├── model_utils.py │ └── evaluation_metrics.py │ 
+
 ├── main.py # Main pipeline script to run the full workflow 
+
 │ └── README.md # Project description and instructions (this file)
+
 ├── download_fun.ipynb ( to downolad the real data from yahoo finance
+
 ├── Christophe_Essay.pdf (my proposal)
 
 
