@@ -15,6 +15,7 @@ The project demonstrates that deep generative models, especially TimeGAN, can su
 ### Project Structure
 
 project_root/ │ 
+
 ├── data/ │ ├── raw/ # Raw real-world data (e.g., S&P500 historical prices) │ ├── processed/ # Intermediate synthetic data (saved .npy files) │ └── synthetic/ # Final synthetic datasets (.csv files) ready for use │ 
 
 ├── models/ # Trained and saved models (ARIMA, GARCH, TimeGAN, VAE) │ 
