@@ -93,6 +93,17 @@ Affiliation: AIMS Rwanda
 
 Email: (ask me dm)
 
+#### 👨‍🏫 Tutor
+
+This project was conducted under the mentorship of:
+
+Tutor Name: Pierre Ntakirutimana
+
+Affiliation: AIMS Rwanda
+
+Email: pntakiru@alumni.cmu.edu
+
+
 📜 License
 
 This project is developed for academic purposes.
