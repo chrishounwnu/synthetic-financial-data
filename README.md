@@ -95,7 +95,7 @@ Email: (ask me dm)
 
 #### 👨‍🏫 Tutor
 
-This project was conducted under the mentorship of:
+This project was conducted under the tutoring of:
 
 Tutor Name: Pierre Ntakirutimana
 
