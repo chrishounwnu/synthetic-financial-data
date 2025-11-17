@@ -48,15 +48,15 @@ ___Simulated VAE synthetic data showed unrealistic behavior under stress conditi
 
 - Stress Testing:
 
-_____TimeGAN synthetic portfolios remained stable and coherent under extreme market simulations.
+___TimeGAN synthetic portfolios remained stable and coherent under extreme market simulations.
 
-_____Simulated VAE portfolios exhibited unrealistic explosive growth (expected due to random noise).
+___Simulated VAE portfolios exhibited unrealistic explosive growth (expected due to random noise).
 
 - Backtesting:
 
-__________TimeGAN and real data produced stable and plausible returns.
+___TimeGAN and real data produced stable and plausible returns.
 
-_________Simulated VAE was highly volatile and unreliable.
+___Simulated VAE was highly volatile and unreliable.
 
 These results confirm that deep generative models like TimeGAN can produce ethically usable and statistically valid financial datasets.
 
@@ -76,5 +76,6 @@ Email: yae@aims.ac.za
 This project is developed for academic purposes.
 
 Reuse, distribution, and modification should credit me and  my supervisor.
+
 
 
