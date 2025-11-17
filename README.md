@@ -91,17 +91,7 @@ Supervisor Name: Prof. Dr. Ulrich GABA
 
 Affiliation: AIMS Rwanda
 
-Email: (ask me dm)
-
-#### 👨‍🏫 Tutor
-
-This project was conducted under the tutoring of:
-
-Tutor Name: Pierre Ntakirutimana
-
-Affiliation: AIMS Rwanda
-
-Email: pntakiru@alumni.cmu.edu
+Email: yae@aims.ac.za 
 
 
 📜 License
@@ -109,3 +99,4 @@ Email: pntakiru@alumni.cmu.edu
 This project is developed for academic purposes.
 
 Reuse, distribution, and modification should credit me and  my supervisor.
+
