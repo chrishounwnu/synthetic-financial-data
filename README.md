@@ -12,29 +12,6 @@ The project demonstrates that deep generative models, especially TimeGAN, can su
 
 ---
 
-### Project Structure
-
-project_root/ │ 
-
-├── data/ │ ├── raw/ # Raw real-world data (e.g., S&P500 historical prices) │ ├── processed/ # Intermediate synthetic data (saved .npy files) │ └── synthetic/ # Final synthetic datasets (.csv files) ready for use │ 
-
-├── models/ # Trained and saved models (ARIMA, GARCH, TimeGAN, VAE) │ 
-
-├── notebooks/ # Jupyter notebooks documenting each stage │ ├── 01_data_exploration.ipynb │ ├── 02_arima_garch_modeling.ipynb │ ├── 03_timegan_training.ipynb │ ├── 04_vae_training.ipynb │ ├── 05_evaluation.ipynb │ └── 06_use_cases.ipynb │ 
-
-├── utils/ # Python utility scripts │ ├── data_loader.py │ ├── model_utils.py │ └── evaluation_metrics.py │ 
-
-├── main.py # Main pipeline script to run the full workflow 
-
-│ └── README.md # Project description and instructions (this file)
-
-├── download_fun.ipynb ( to downolad the real data from yahoo finance
-
-├── Christophe_Essay.pdf (my proposal)
-
-
----
-
 ## How to Run the Project
 
 1. Clone the repository to your local machine:
@@ -83,7 +60,7 @@ _________Simulated VAE was highly volatile and unreliable.
 
 These results confirm that deep generative models like TimeGAN can produce ethically usable and statistically valid financial datasets.
 
-#### 👨‍🏫 Supervisor
+#### Supervisor
 
 This project was conducted under the supervision of:
 
@@ -99,4 +76,5 @@ Email: yae@aims.ac.za
 This project is developed for academic purposes.
 
 Reuse, distribution, and modification should credit me and  my supervisor.
+
 
