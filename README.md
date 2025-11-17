@@ -64,7 +64,7 @@ These results confirm that deep generative models like TimeGAN can produce ethic
 
 This project was conducted under the supervision of:
 
-Supervisor Name: Prof. Dr. Ulrich GABA
+Prof. Dr. Ulrich GABA
 
 Affiliation: AIMS Rwanda
 
@@ -76,6 +76,7 @@ Email: yae@aims.ac.za
 This project is developed for academic purposes.
 
 Reuse, distribution, and modification should credit me and  my supervisor.
+
 
 
 
