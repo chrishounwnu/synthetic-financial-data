@@ -1,82 +1,152 @@
-## Synthetic Financial Data Generation for Enhanced Financial Modeling
+<div align="center">
+
+<br/>
+
+# 📈 Synthetic Financial Data Generation
+### *for Enhanced Financial Modeling*
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Deep Learning](https://img.shields.io/badge/Deep%20Learning-TimeGAN%20%7C%20VAE-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/chrishounwnu/synthetic-financial-data)
+[![Statistics](https://img.shields.io/badge/Statistics-ARIMA%20%7C%20GARCH-4CAF50?style=flat-square&logo=scipy&logoColor=white)](https://github.com/chrishounwnu/synthetic-financial-data)
+[![License](https://img.shields.io/badge/License-Academic%20Use-9C27B0?style=flat-square)](https://github.com/chrishounwnu/synthetic-financial-data)
+[![AIMS Rwanda](https://img.shields.io/badge/Institution-AIMS%20Rwanda-E91E63?style=flat-square)](https://aims.ac.rw)
+
+<br/>
+
+> *Generating statistically faithful synthetic financial time series using deep generative models —*
+> *enabling privacy-preserving research, model development, and financial simulation.*
+
+<br/>
+
+</div>
 
 ---
 
-### Summary
+## 🧭 Overview
 
-This project explores the generation of synthetic financial data to address the challenges of privacy, scarcity, and access to real financial datasets.  
-We combine statistical models (ARIMA, GARCH) and deep learning models (TimeGAN, Variational Autoencoder) to create realistic synthetic time series data.  
-The synthetic data is evaluated using PCA visualization and Maximum Mean Discrepancy (MMD) metrics, and is tested in practical financial use cases like portfolio optimization and stress testing.
+This project explores the generation of **synthetic financial data** to address key challenges in quantitative finance: data privacy, dataset scarcity, and restricted access to real financial records.
 
-The project demonstrates that deep generative models, especially TimeGAN, can successfully produce synthetic datasets that retain the statistical properties of real financial data, making them highly useful for research and model development without violating data privacy.
+We combine **classical statistical models** and **state-of-the-art deep generative architectures** to synthesize realistic financial time series, then rigorously evaluate their quality and utility across practical downstream tasks.
+
+| Approach | Models Used |
+|---|---|
+| 📊 Statistical | ARIMA, GARCH |
+| 🤖 Deep Learning | TimeGAN, Variational Autoencoder (VAE) |
+| 📐 Evaluation | PCA Visualization, Maximum Mean Discrepancy (MMD) |
+| 💼 Applications | Portfolio Optimization, Stress Testing, Backtesting |
 
 ---
 
-## How to Run the Project
+## 🚀 Getting Started
 
-1. Clone the repository to your local machine:
+### Prerequisites
 
+Make sure you have **Python 3.8+** installed. A virtual environment is strongly recommended.
+
+```bash
+python -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
+```
+
+### Installation & Run
+
+**1. Clone the repository**
 ```bash
 git clone https://github.com/chrishounwnu/synthetic-financial-data.git
 cd synthetic-financial-data
+```
 
-````
-
-2. Install the required Python packages (create a virtual environment if needed):
-
+**2. Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-3. Run the full pipeline from the terminal:
-
+**3. Run the full pipeline**
+```bash
 python main.py
+```
 
-4. Explore each notebook in the notebooks/ folder to understand detailed steps, modeling, training, and evaluation.
+**4. Explore the notebooks**
 
- ### Key Results
- 
-- TimeGAN generated synthetic sequences that closely match real financial time series based on:
+Open any notebook inside the `notebooks/` folder for step-by-step walkthroughs of the modeling, training, and evaluation stages.
 
- __PCA Visualization ➔ synthetic and real data clusters overlap.
+```
+notebooks/
+├── 01_data_preprocessing.ipynb
+├── 02_statistical_models.ipynb
+├── 03_timegan_training.ipynb
+├── 04_vae_training.ipynb
+└── 05_evaluation.ipynb
+```
 
-__MMD Distance ➔ Real vs TimeGAN = very low (≈ 0.0044), indicating high similarity.
+---
 
-- Portfolio Optimization:
+## 📊 Key Results
 
-___Portfolios built on synthetic TimeGAN data were similar and realistic compared to real data portfolios.
+### 🔬 Time Series Fidelity
 
-___Simulated VAE synthetic data showed unrealistic behavior under stress conditions.
+| Metric | Real vs TimeGAN | Real vs VAE |
+|---|---|---|
+| MMD Distance | **≈ 0.0044** ✅ | Higher ⚠️ |
+| PCA Cluster Overlap | Strong overlap ✅ | Partial ⚠️ |
 
-- Stress Testing:
+> **TimeGAN** produces synthetic sequences whose statistical distribution closely mirrors real financial data — confirmed by both visual (PCA) and quantitative (MMD) evaluation.
 
-___TimeGAN synthetic portfolios remained stable and coherent under extreme market simulations.
+---
 
-___Simulated VAE portfolios exhibited unrealistic explosive growth (expected due to random noise).
+### 💼 Portfolio Optimization
 
-- Backtesting:
+- ✅ **TimeGAN** — Portfolios built on synthetic data were **realistic and comparable** to those built on real data.
+- ⚠️ **VAE** — Portfolios exhibited **unrealistic allocation behavior** under stress conditions.
 
-___TimeGAN and real data produced stable and plausible returns.
+---
 
-___Simulated VAE was highly volatile and unreliable.
+### 🌪️ Stress Testing
 
-These results confirm that deep generative models like TimeGAN can produce ethically usable and statistically valid financial datasets.
+- ✅ **TimeGAN** — Synthetic portfolios remained **stable and coherent** under extreme market simulations.
+- ❌ **VAE** — Portfolios exhibited **explosive, unrealistic growth**, attributable to random noise in the latent space.
 
-#### Supervisor
+---
 
-This project was conducted under the supervision of:
+### 📉 Backtesting
 
-Prof. Dr. Ulrich GABA
+- ✅ **TimeGAN** — Return trajectories were **stable and plausible**, consistent with real data behavior.
+- ❌ **VAE** — Highly **volatile and unreliable** for backtesting purposes.
 
-Affiliation: AIMS Rwanda
+---
 
-Email: yae@aims.ac.za 
+### ✅ Conclusion
 
+> Deep generative models — particularly **TimeGAN** — can produce **ethically usable, statistically valid** synthetic financial datasets suitable for research, model training, and financial simulation, without requiring access to sensitive real-world data.
 
-📜 License
+---
 
-This project is developed for academic purposes.
+## 👨‍🏫 Supervisor
 
-Reuse, distribution, and modification should credit me and  my supervisor.
+This project was conducted under the academic supervision of:
 
+| | |
+|---|---|
+| **Name** | Prof. Dr. Yaé U. Gaba |
+| **Institution** | [AI.Techniprenuers](https://github.com/ai-technipreneurs) & [AIRINA Labs]() |
+| **Email** | [yaeulrich.gaba@gmail.com](mailto:yaeulrich.gaba@gmail.com) |
 
+---
 
+## 📜 License
 
+This project was developed for **academic and research purposes**.
+
+Reuse, distribution, and modification of this work should include appropriate credit to the **author** and **supervisor**.
+
+---
+
+<div align="center">
+
+<br/>
+
+*Built with curiosity and rigor at* **AIMS Rwanda** 🌍
+
+</div>
