@@ -129,7 +129,7 @@ This project was conducted under the academic supervision of:
 
 | | |
 |---|---|
-| **Name** | Prof. Dr. Yaé U. Gaba |
+| **Name** | [Prof. Dr. Yaé U. Gaba](https://github.com/gabayae/gabayae/tree/main) |
 | **Institution** | [AI.Techniprenuers](https://github.com/ai-technipreneurs/ai-technipreneurs/tree/main) & [AIRINA Labs]()(https://airina-labs.github.io/AIRINA-Labs/) |
 | **Email** | [yaeulrich.gaba@gmail.com](mailto:yaeulrich.gaba@gmail.com) |
 
@@ -150,5 +150,6 @@ Reuse, distribution, and modification of this work should include appropriate cr
 *Built with curiosity and rigor at* **AIMS Rwanda** 🌍
 
 </div>
+
 
 
