@@ -130,7 +130,7 @@ This project was conducted under the academic supervision of:
 | | |
 |---|---|
 | **Name** | [Prof. Dr. Yaé U. Gaba](https://github.com/gabayae/gabayae/tree/main) |
-| **Institution** | [AI.Techniprenuers](https://github.com/ai-technipreneurs/ai-technipreneurs/tree/main) & [AIRINA Labs]()(https://airina-labs.github.io/AIRINA-Labs/) |
+| **Institution** | [AI.Techniprenuers](https://github.com/ai-technipreneurs/ai-technipreneurs/tree/main) & [AIRINA Labs](https://github.com/AIRINA-Labs/AIRINA-Labs)(https://airina-labs.github.io/AIRINA-Labs/) |
 | **Email** | [yaeulrich.gaba@gmail.com](mailto:yaeulrich.gaba@gmail.com) |
 
 ---
